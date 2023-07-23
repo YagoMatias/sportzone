@@ -20,12 +20,12 @@ const NavMenu = () => {
     <Box display="flex" justifyContent="center" alignItems="center">
       <ButtonGroup
         variant="text"
-        color="success"
+        color="inherit"
         aria-label="button group"
         size={isSmallScreen ? 'small' : 'medium'}
       >
         <Tooltip
-          title="Início"
+          title="Home"
           arrow
           sx={{
             color: 'white',
@@ -35,7 +35,7 @@ const NavMenu = () => {
             },
           }}
         >
-          <Button>Ínicio</Button>
+          <Button>Home</Button>
         </Tooltip>
         <Tooltip
           title="Brasileiro"

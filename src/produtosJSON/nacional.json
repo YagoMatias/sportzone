@@ -1,0 +1,152 @@
+[
+  {
+    "clube": "Botafogo",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/L3tdvDK.jpg"
+  },
+  {
+    "clube": "Flamengo",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/2VZztaX.jpg"
+  },
+  {
+    "clube": "Palmeiras",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/B4vyQ1z.jpg"
+  },
+  {
+    "clube": "Grêmio",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/9ndUhct.jpg"
+  },
+  {
+    "clube": "São Paulo",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/Ah2RzHv.jpg"
+  },
+  {
+    "clube": "Fluminense",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/GQm2Mj3.jpg"
+  },
+  {
+    "clube": "Bragantino",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/NUNDENk.jpg"
+  },
+  {
+    "clube": "Athletico-PR",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/tXG6P7O.jpg"
+  },
+  {
+    "clube": "Fortaleza",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/TmzUtB7.jpg"
+  },
+  {
+    "clube": "Cruzeiro",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/4mzsw1u.jpg"
+  },
+  {
+    "clube": "Internacional",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/EpLM1yH.jpg"
+  },
+  {
+    "clube": "Atlético-MG",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/7KWXkOV.jpg"
+  },
+  {
+    "clube": "Santos",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/yyrUA3Y.jpg"
+  },
+  {
+    "clube": "Corinthians",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/8ynzy5i.jpg"
+  },
+  {
+    "clube": "Vasco",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "brasileiro",
+    "liga": "Brasileirão",
+    "valor": "110",
+    "image": "https://i.imgur.com/g1RQCZP.jpg"
+  }
+]

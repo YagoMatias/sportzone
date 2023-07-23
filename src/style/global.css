@@ -4,11 +4,45 @@
   box-sizing: border-box;
 }
 
-.layout { 
-  height: 100vh;
-  background-image: url('/public/images/campo-bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.bannerConteiner {
+  display: flex;
+  justify-content: center;
+  max-width: 200rem; 
+}
 
+.bannerConteiner img {
+  min-width: auto;
+  border-radius: 1rem;
+}
+
+.contentProdutos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gridProdutos {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+}
+
+@media (max-width: 880px) {
+  .gridProdutos {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+  }
+}
+@media (max-width: 550px) {
+  .gridProdutos {
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+  }
 }
