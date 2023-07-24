@@ -18,7 +18,10 @@ const Produtos = () => {
       <Box className="gridProdutos">
         {globalProdutos.map((produto) => {
           return (
-            <Card key={produto.id} sx={{ maxWidth: 215, minWidth: 200 }}>
+            <Card
+              key={produto.id}
+              sx={{ maxWidth: 215, minWidth: 200, borderRadius: '1rem' }}
+            >
               <CardActionArea>
                 <div>
                   <CardMedia
