@@ -23,16 +23,27 @@ const NacionalProdutos = () => {
                 <div>
                   <CardMedia
                     component="img"
-                    height="250"
+                    height="300"
                     image={produto.image}
                     alt={produto.clube}
                   />
                   <CardContent sx={{ bgcolor: 'darkgray' }}>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="div"
+                      fontWeight="bold"
+                    >
                       {produto.clube}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {produto.ano} | R${produto.valor},00
+                    <Typography variant="subtitle1" color="text.secondary">
+                      <p>
+                        {produto.local} | {produto.ano}
+                      </p>
+                      <p style={{ color: 'green', fontWeight: 'bold' }}>
+                        <s style={{ color: 'red' }}>R$ 200,00</s> | R$
+                        {produto.valor},00
+                      </p>
                     </Typography>
                   </CardContent>
                 </div>

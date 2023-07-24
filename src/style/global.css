@@ -13,7 +13,6 @@
   padding: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 5rem;
   grid-row-gap: 5rem;
 }
@@ -22,7 +21,6 @@
   .gridProdutos {
   display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 5rem;
     grid-row-gap: 5rem;
   }

@@ -1,14 +1,14 @@
 import { Engineering } from '@mui/icons-material';
-import { Box } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import React from 'react';
 
 function Manutencao() {
   return (
-    <Box>
+    <Container maxWidth="xs">
       <h1>
         MANUTENÇÃO <Engineering />
       </h1>
-    </Box>
+    </Container>
   );
 }
 
