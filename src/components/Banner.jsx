@@ -12,7 +12,7 @@ const Banner = () => {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        // loop={true}
+        loop={true}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -24,9 +24,7 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide className="swiper-slide">
-          <div>
-            <img src={bannerImage} alt="" />
-          </div>
+          <img src={bannerImage} alt="" />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img src={bannerImage} alt="" />

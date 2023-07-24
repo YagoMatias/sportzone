@@ -11,15 +11,23 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { NavLink } from 'react-router-dom';
+import '../style/global.css';
 
 const NavMenu = () => {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center">
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      marginTop={1}
+      marginBottom={2}
+    >
       <ButtonGroup
-        variant="text"
+        variant="contained"
         color="inherit"
         aria-label="button group"
         size={isSmallScreen ? 'small' : 'medium'}
@@ -35,7 +43,11 @@ const NavMenu = () => {
             },
           }}
         >
-          <Button>Home</Button>
+          <Button>
+            <NavLink className="navLink" to="/">
+              Home
+            </NavLink>
+          </Button>
         </Tooltip>
         <Tooltip
           title="Brasileiro"
@@ -48,7 +60,11 @@ const NavMenu = () => {
             },
           }}
         >
-          <Button>Brasileiro</Button>
+          <Button>
+            <NavLink className="navLink" to="brasileiro">
+              Brasileiro
+            </NavLink>
+          </Button>
         </Tooltip>
         <Tooltip
           title="Internacional"
@@ -61,7 +77,11 @@ const NavMenu = () => {
             },
           }}
         >
-          <Button>Internacional</Button>
+          <Button>
+            <NavLink className="navLink" to="internacional">
+              Internacional
+            </NavLink>
+          </Button>
         </Tooltip>
         <Tooltip
           title="Seleção"
@@ -74,7 +94,11 @@ const NavMenu = () => {
             },
           }}
         >
-          <Button>Seleção</Button>
+          <Button>
+            <NavLink className="navLink" to="selecao">
+              Seleção
+            </NavLink>
+          </Button>
         </Tooltip>
       </ButtonGroup>
     </Box>

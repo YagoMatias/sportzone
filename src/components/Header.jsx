@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import { ShoppingCart } from '@mui/icons-material';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -66,16 +67,6 @@ export default function Header() {
         }}
       >
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-            onClick={handleClick}
-          >
-            <MenuIcon />
-          </IconButton>
           <Typography
             variant="h6"
             noWrap
@@ -89,10 +80,20 @@ export default function Header() {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search…"
+              placeholder="Pesquisar..."
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="open drawer"
+            sx={{ mr: 2, marginLeft: 2 }}
+            onClick={handleClick}
+          >
+            <ShoppingCart />
+          </IconButton>
         </Toolbar>
       </AppBar>
     </Box>

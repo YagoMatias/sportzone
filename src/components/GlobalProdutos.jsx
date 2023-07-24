@@ -1,5 +1,5 @@
 import React from 'react';
-import globalProdutos from '../produtosJSON/nacional.json';
+
 import Box from '@mui/material/Box';
 
 import {
@@ -10,22 +10,24 @@ import {
   Typography,
 } from '@mui/material';
 
+import globalProdutos from '../produtosJSON/global.json';
+
 const Produtos = () => {
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">
         {globalProdutos.map((produto) => {
           return (
-            <Card sx={{ maxWidth: 235, minWidth: 200 }}>
+            <Card key={produto.id} sx={{ maxWidth: 215, minWidth: 200 }}>
               <CardActionArea>
-                <div key={produto.id}>
+                <div>
                   <CardMedia
                     component="img"
-                    height="300"
+                    height="250"
                     image={produto.image}
                     alt={produto.clube}
                   />
-                  <CardContent>
+                  <CardContent sx={{ bgcolor: 'darkgray' }}>
                     <Typography gutterBottom variant="h5" component="div">
                       {produto.clube}
                     </Typography>

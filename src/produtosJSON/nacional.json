@@ -1,5 +1,7 @@
 [
   {
+    "id": "1",
+    "local": "Home",
     "clube": "Botafogo",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -7,9 +9,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/L3tdvDK.jpg"
+    "image": "https://i.imgur.com/L3tdvDK.jpg",
+    "": ""
   },
   {
+    "id": "2",
+    "local": "Home",
     "clube": "Flamengo",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -17,9 +22,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/2VZztaX.jpg"
+    "image": "https://i.imgur.com/2VZztaX.jpg",
+    "": ""
   },
   {
+    "id": "3",
+    "local": "Home",
     "clube": "Palmeiras",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -27,9 +35,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/B4vyQ1z.jpg"
+    "image": "https://i.imgur.com/B4vyQ1z.jpg",
+    "": ""
   },
   {
+    "id": "4",
+    "local": "Home",
     "clube": "Grêmio",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -37,9 +48,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/9ndUhct.jpg"
+    "image": "https://i.imgur.com/9ndUhct.jpg",
+    "": ""
   },
   {
+    "id": "5",
+    "local": "Home",
     "clube": "São Paulo",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -47,9 +61,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/Ah2RzHv.jpg"
+    "image": "https://i.imgur.com/Ah2RzHv.jpg",
+    "": ""
   },
   {
+    "id": "6",
+    "local": "Home",
     "clube": "Fluminense",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -57,9 +74,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/GQm2Mj3.jpg"
+    "image": "https://i.imgur.com/GQm2Mj3.jpg",
+    "": ""
   },
   {
+    "id": "7",
+    "local": "Home",
     "clube": "Bragantino",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -67,9 +87,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/NUNDENk.jpg"
+    "image": "https://i.imgur.com/NUNDENk.jpg",
+    "": ""
   },
   {
+    "id": "8",
+    "local": "Home",
     "clube": "Athletico-PR",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -77,9 +100,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/tXG6P7O.jpg"
+    "image": "https://i.imgur.com/tXG6P7O.jpg",
+    "": ""
   },
   {
+    "id": "9",
+    "local": "Home",
     "clube": "Fortaleza",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -87,9 +113,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/TmzUtB7.jpg"
+    "image": "https://i.imgur.com/TmzUtB7.jpg",
+    "": ""
   },
   {
+    "id": "10",
+    "local": "Home",
     "clube": "Cruzeiro",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -97,9 +126,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/4mzsw1u.jpg"
+    "image": "https://i.imgur.com/4mzsw1u.jpg",
+    "": ""
   },
   {
+    "id": "11",
+    "local": "Home",
     "clube": "Internacional",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -107,9 +139,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/EpLM1yH.jpg"
+    "image": "https://i.imgur.com/EpLM1yH.jpg",
+    "": ""
   },
   {
+    "id": "12",
+    "local": "Home",
     "clube": "Atlético-MG",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -117,9 +152,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/7KWXkOV.jpg"
+    "image": "https://i.imgur.com/7KWXkOV.jpg",
+    "": ""
   },
   {
+    "id": "13",
+    "local": "Home",
     "clube": "Santos",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -127,9 +165,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/yyrUA3Y.jpg"
+    "image": "https://i.imgur.com/yyrUA3Y.jpg",
+    "": ""
   },
   {
+    "id": "14",
+    "local": "Home",
     "clube": "Corinthians",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -137,9 +178,12 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/8ynzy5i.jpg"
+    "image": "https://i.imgur.com/8ynzy5i.jpg",
+    "": ""
   },
   {
+    "id": "15",
+    "local": "Home",
     "clube": "Vasco",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -147,6 +191,7 @@
     "classe": "brasileiro",
     "liga": "Brasileirão",
     "valor": "110",
-    "image": "https://i.imgur.com/g1RQCZP.jpg"
+    "image": "https://i.imgur.com/g1RQCZP.jpg",
+    "": ""
   }
 ]
