@@ -6,7 +6,6 @@ import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { ShoppingCart } from '@mui/icons-material';
 
@@ -52,11 +51,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const handleClick = () => {
-  return console.log('oi');
-};
+const Header = ({ onSearch }) => {
+  const handleChange = (event) => {
+    const searchTerm = event.target.value;
+    onSearch(searchTerm);
+  };
 
-export default function Header() {
   return (
     <Box sx={{ flexGrow: 1, padding: 1 }}>
       <AppBar
@@ -82,6 +82,7 @@ export default function Header() {
             <StyledInputBase
               placeholder="Pesquisar..."
               inputProps={{ 'aria-label': 'search' }}
+              onChange={handleChange}
             />
           </Search>
           <IconButton
@@ -90,7 +91,6 @@ export default function Header() {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2, marginLeft: 2 }}
-            onClick={handleClick}
           >
             <ShoppingCart />
           </IconButton>
@@ -98,4 +98,5 @@ export default function Header() {
       </AppBar>
     </Box>
   );
-}
+};
+export default Header;

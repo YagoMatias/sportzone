@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Box from '@mui/material/Box';
 
 import {
@@ -12,11 +11,15 @@ import {
 
 import globalProdutos from '../produtosJSON/global.json';
 
-const Produtos = () => {
+const Produtos = ({ searchTerm }) => {
+  const filteredItems = globalProdutos.filter((item) =>
+    item.clube.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+  console.log(searchTerm);
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">
-        {globalProdutos.map((produto) => {
+        {filteredItems.map((produto) => {
           return (
             <Card
               key={produto.id}

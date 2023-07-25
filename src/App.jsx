@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import './style/global.css';
 import NavMenu from './components/NavMenu';
@@ -11,17 +11,25 @@ import Selecao from './pages/Selecao';
 import Banner from './components/Banner';
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
   return (
     <BrowserRouter>
       <Container maxWidth="xl" sx={{ bgcolor: '#121212' }}>
         <Container maxWidth="lg" sx={{ bgcolor: '#121212' }}>
-          <Header />
+          <Header onSearch={(term) => setSearchTerm(term)} />
           <NavMenu />
           <Banner />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="brasileiro" element={<Brasileiro />} />
-            <Route path="internacional" element={<Internacional />} />
+            <Route path="/" element={<Home searchTerm={searchTerm} />} />
+            <Route
+              path="brasileiro"
+              element={<Brasileiro searchTerm={searchTerm} />}
+            />
+            <Route
+              path="internacional"
+              element={<Internacional searchTerm={searchTerm} />}
+            />
             <Route path="selecao" element={<Selecao />} />
           </Routes>
         </Container>

@@ -12,11 +12,14 @@ import {
 
 import globalProdutos from '../produtosJSON/internacional.json';
 
-const InternacionalProdutos = () => {
+const InternacionalProdutos = ({ searchTerm }) => {
+  const filteredItems = globalProdutos.filter((item) =>
+    item.clube.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">
-        {globalProdutos.map((produto) => {
+        {filteredItems.map((produto) => {
           return (
             <Card
               key={produto.id}
