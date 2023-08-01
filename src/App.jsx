@@ -15,7 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Container maxWidth="xl" sx={{ bgcolor: '#121212' }}>
+      <Container maxWidth="xl" sx={{ bgcolor: '#black' }}>
         <Container maxWidth="lg" sx={{ bgcolor: '#121212' }}>
           <Header onSearch={(term) => setSearchTerm(term)} />
           <NavMenu />
