@@ -9,13 +9,14 @@ import Brasileiro from './pages/Brasileiro';
 import Internacional from './pages/Internacional';
 import Selecao from './pages/Selecao';
 import Banner from './components/Banner';
+import Produto from './pages/Produto';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   return (
     <BrowserRouter>
-      <Container maxWidth="xl" sx={{ bgcolor: '#black' }}>
+      <Container maxWidth="xl" sx={{ bgcolor: '#121212' }}>
         <Container maxWidth="lg" sx={{ bgcolor: '#121212' }}>
           <Header onSearch={(term) => setSearchTerm(term)} />
           <NavMenu />
@@ -31,6 +32,7 @@ function App() {
               element={<Internacional searchTerm={searchTerm} />}
             />
             <Route path="selecao" element={<Selecao />} />
+            <Route path="produto/:id" element={<Produto />} />
           </Routes>
         </Container>
       </Container>
