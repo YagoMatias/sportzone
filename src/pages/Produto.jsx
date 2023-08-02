@@ -6,6 +6,7 @@ import {
   Card,
 } from '@mui/material';
 import React from 'react';
+import globalprodutos from '../produtosJSON/global.json';
 import { useParams } from 'react-router-dom';
 
 const Produto = () => {
@@ -17,19 +18,19 @@ const Produto = () => {
   const [ano, setAno] = React.useState(null);
 
   React.useEffect(() => {
-    async function fetchProduto(url) {
-      const response = await fetch(url);
-      const json = await response.json();
-      const produto = json;
-      console.log(json);
+    // async function fetchProduto() {
+    //   const response = await fetch('/src/produtosJSON/global.json');
+    //   const json = await response.json();
+    //   const produto = json;
+    //   console.log(json);
+    const produto = globalprodutos;
 
-      setClube(produto[id].clube);
-      setLocal(produto[id].local);
-      setValor(produto[id].valor);
-      setImage(produto[id].image);
-      setAno(produto[id].ano);
-    }
-    fetchProduto('/src/produtosJSON/global.json');
+    setClube(produto[id].clube);
+    setLocal(produto[id].local);
+    setValor(produto[id].valor);
+    setImage(produto[id].image);
+    setAno(produto[id].ano);
+    // fetchProduto();
   }, [id]);
 
   return (
