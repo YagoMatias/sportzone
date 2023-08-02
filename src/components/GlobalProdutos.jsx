@@ -1,7 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom';
-
 import {
   Card,
   CardActionArea,
@@ -9,15 +8,12 @@ import {
   CardMedia,
   Typography,
 } from '@mui/material';
-
 import globalProdutos from '../produtosJSON/global.json/';
-import { NavLink } from 'react-router-dom';
 
 const Produtos = ({ searchTerm }) => {
   const filteredItems = globalProdutos.filter((item) =>
     item.clube.toLowerCase().includes(searchTerm.toLowerCase()),
   );
-  console.log(searchTerm);
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">

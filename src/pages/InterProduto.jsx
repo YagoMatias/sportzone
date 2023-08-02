@@ -6,10 +6,10 @@ import {
   Card,
 } from '@mui/material';
 import React from 'react';
-import globalprodutos from '../produtosJSON/global.json';
+import internacional from '../produtosJSON/internacional.json';
 import { useParams } from 'react-router-dom';
 
-const Produto = () => {
+const InterProduto = () => {
   const { id } = useParams();
   const [clube, setClube] = React.useState(null);
   const [local, setLocal] = React.useState(null);
@@ -18,12 +18,7 @@ const Produto = () => {
   const [ano, setAno] = React.useState(null);
 
   React.useEffect(() => {
-    // async function fetchProduto() {
-    //   const response = await fetch('/src/produtosJSON/global.json');
-    //   const json = await response.json();
-    //   const produto = json;
-    //   console.log(json);
-    const produto = globalprodutos;
+    const produto = internacional;
 
     setClube(produto[id].clube);
     setLocal(produto[id].local);
@@ -68,4 +63,4 @@ const Produto = () => {
   );
 };
 
-export default Produto;
+export default InterProduto;

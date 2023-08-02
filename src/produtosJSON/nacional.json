@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "0",
     "local": "Home",
     "clube": "Botafogo",
     "ano": "23 - 24",
@@ -13,7 +13,7 @@
     "": ""
   },
   {
-    "id": "2",
+    "id": "1",
     "local": "Home",
     "clube": "Flamengo",
     "ano": "23 - 24",
@@ -26,7 +26,7 @@
     "": ""
   },
   {
-    "id": "3",
+    "id": "2",
     "local": "Home",
     "clube": "Palmeiras",
     "ano": "23 - 24",
@@ -39,7 +39,7 @@
     "": ""
   },
   {
-    "id": "4",
+    "id": "3",
     "local": "Home",
     "clube": "Grêmio",
     "ano": "23 - 24",
@@ -52,7 +52,7 @@
     "": ""
   },
   {
-    "id": "5",
+    "id": "4",
     "local": "Home",
     "clube": "São Paulo",
     "ano": "23 - 24",
@@ -65,7 +65,7 @@
     "": ""
   },
   {
-    "id": "6",
+    "id": "5",
     "local": "Home",
     "clube": "Fluminense",
     "ano": "23 - 24",
@@ -78,7 +78,7 @@
     "": ""
   },
   {
-    "id": "7",
+    "id": "6",
     "local": "Home",
     "clube": "Bragantino",
     "ano": "23 - 24",
@@ -91,7 +91,7 @@
     "": ""
   },
   {
-    "id": "8",
+    "id": "7",
     "local": "Home",
     "clube": "Athletico-PR",
     "ano": "23 - 24",
@@ -104,7 +104,7 @@
     "": ""
   },
   {
-    "id": "9",
+    "id": "8",
     "local": "Home",
     "clube": "Fortaleza",
     "ano": "23 - 24",
@@ -117,7 +117,7 @@
     "": ""
   },
   {
-    "id": "10",
+    "id": "9",
     "local": "Home",
     "clube": "Cruzeiro",
     "ano": "23 - 24",
@@ -130,7 +130,7 @@
     "": ""
   },
   {
-    "id": "11",
+    "id": "10",
     "local": "Home",
     "clube": "Internacional",
     "ano": "23 - 24",
@@ -143,7 +143,7 @@
     "": ""
   },
   {
-    "id": "12",
+    "id": "11",
     "local": "Home",
     "clube": "Atlético-MG",
     "ano": "23 - 24",
@@ -156,7 +156,7 @@
     "": ""
   },
   {
-    "id": "13",
+    "id": "12",
     "local": "Home",
     "clube": "Santos",
     "ano": "23 - 24",
@@ -169,7 +169,7 @@
     "": ""
   },
   {
-    "id": "14",
+    "id": "13",
     "local": "Home",
     "clube": "Corinthians",
     "ano": "23 - 24",
@@ -182,7 +182,7 @@
     "": ""
   },
   {
-    "id": "15",
+    "id": "14",
     "local": "Home",
     "clube": "Vasco",
     "ano": "23 - 24",
