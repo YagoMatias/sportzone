@@ -9,9 +9,7 @@ import Brasileiro from './pages/Brasileiro';
 import Internacional from './pages/Internacional';
 import Selecao from './pages/Selecao';
 import Banner from './components/Banner';
-import HomeProduto from './pages/HomeProduto';
-import NacionalProduto from './pages/NacionalProduto';
-import InterProduto from './pages/InterProduto';
+import HomeProduto from './pages/Produto';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -35,13 +33,10 @@ function App() {
             />
             <Route path="selecao" element={<Selecao />} />
             <Route path="produto/:id" element={<HomeProduto />} />
-            <Route
-              path="/brasileiro/produto/:id"
-              element={<NacionalProduto />}
-            />
+            <Route path="/brasileiro/produto/:id" element={<HomeProduto />} />
             <Route
               path="/internacional/produto/:id"
-              element={<InterProduto />}
+              element={<HomeProduto />}
             />
           </Routes>
         </Container>

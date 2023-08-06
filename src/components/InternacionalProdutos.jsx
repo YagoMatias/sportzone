@@ -1,5 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
+import globalProdutos from '../produtosJSON/global.json';
 import {
   Card,
   CardActionArea,
@@ -7,17 +8,21 @@ import {
   CardMedia,
   Typography,
 } from '@mui/material';
-import globalProdutos from '../produtosJSON/internacional.json';
 import { Link } from 'react-router-dom';
 
 const InternacionalProdutos = ({ searchTerm }) => {
   const filteredItems = globalProdutos.filter((item) =>
     item.clube.toLowerCase().includes(searchTerm.toLowerCase()),
   );
+
+  const ProdutosInternacionais = filteredItems.filter((item) => {
+    return item.classe === 'internacional';
+  });
+
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">
-        {filteredItems.map((produto) => {
+        {ProdutosInternacionais.map((produto) => {
           return (
             <Link to={`produto/${produto.id}`} key={produto.id}>
               <Card

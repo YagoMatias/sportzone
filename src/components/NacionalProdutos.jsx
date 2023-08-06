@@ -7,7 +7,7 @@ import {
   CardMedia,
   Typography,
 } from '@mui/material';
-import globalProdutos from '../produtosJSON/nacional.json';
+import globalProdutos from '../produtosJSON/global.json';
 import { Link } from 'react-router-dom';
 
 const NacionalProdutos = ({ searchTerm }) => {
@@ -15,10 +15,14 @@ const NacionalProdutos = ({ searchTerm }) => {
     item.clube.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
+  const ProdutosNacionais = filteredItems.filter((item) => {
+    return item.classe === 'brasileiro';
+  });
+
   return (
     <div className="contentProdutos">
       <Box className="gridProdutos">
-        {filteredItems.map((produto) => {
+        {ProdutosNacionais.map((produto) => {
           return (
             <Link to={`produto/${produto.id}`} key={produto.id}>
               <Card
