@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Box, Button, ButtonGroup, Container, Typography } from '@mui/material';
 import { Add, Remove, ShoppingCart } from '@mui/icons-material';
 import '../style/global.css';
+import { setItem, getItem } from '../services/LocalStorage';
 
 const HomeProduto = () => {
   const { id } = useParams();
@@ -57,7 +58,11 @@ const HomeProduto = () => {
 
   const handleCart = () => {
     let preco = valor * qnt;
-    setCart([tipo, clube, local, ano, size, qnt, preco]);
+
+    size === ''
+      ? alert('Escolha um tamanho')
+      : setCart([tipo, clube, local, ano, size, qnt, preco]);
+    setItem('SportzoneCart', [...cart]);
   };
 
   console.log(cart);
@@ -123,7 +128,6 @@ const HomeProduto = () => {
               <Add />
             </Button>
           </Box>
-
           <Typography
             variant="h5"
             color="red"
@@ -187,6 +191,7 @@ const HomeProduto = () => {
               </Button>
             ))}
           </ButtonGroup>
+
           <Button
             style={{
               gap: '1rem',
@@ -199,7 +204,7 @@ const HomeProduto = () => {
             endIcon={<ShoppingCart />}
             onClick={handleCart}
           >
-            {cart.includes(size) ? 'Item Adicionado' : 'Adicionar ao Carrinho'}
+            Adicionar ao Carrinho
           </Button>
         </Box>
       </Box>
