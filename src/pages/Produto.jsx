@@ -1,7 +1,14 @@
 import React from 'react';
 import globalprodutos from '../produtosJSON/global.json';
 import { useParams } from 'react-router-dom';
-import { Box, Button, ButtonGroup, Container, Typography } from '@mui/material';
+import {
+  Alert,
+  Box,
+  Button,
+  ButtonGroup,
+  Container,
+  Typography,
+} from '@mui/material';
 import { Add, Remove, ShoppingCart } from '@mui/icons-material';
 import '../style/global.css';
 import { setItem, getItem } from '../services/LocalStorage';
@@ -18,10 +25,10 @@ const HomeProduto = () => {
   const [qnt, setQnt] = React.useState(1);
   const [size, setSize] = React.useState('');
   const [selectedButton, setSelectedButton] = React.useState(null);
-  const [cart, setCart] = React.useState([]);
+  const [cart, setCart] = React.useState(getItem('sportzone') || []);
 
+  const produto = globalprodutos;
   React.useEffect(() => {
-    const produto = globalprodutos;
     setClube(produto[id].clube);
     setLocal(produto[id].local);
     setValor(produto[id].valor);
@@ -56,16 +63,22 @@ const HomeProduto = () => {
 
   //--------------------------//
 
+  const pegarvalor = getItem('sportzone');
+  const macaco = pegarvalor.map((item) => item[0]);
+  console.log(macaco);
+
+  let preco = qnt * valor;
+  const obj = [ident, clube, tipo, qnt, size, preco];
+
   const handleCart = () => {
-    let preco = valor * qnt;
-
-    size === ''
-      ? alert('Escolha um tamanho')
-      : setCart([tipo, clube, local, ano, size, qnt, preco]);
-    setItem('SportzoneCart', [...cart]);
+    if (size === '') {
+      return alert('Escolha um tamanho');
+    }
+    let preco = qnt * valor;
+    const obj = [ident, clube, tipo, qnt, size, preco];
+    setCart([...cart, obj]);
+    setItem('sportzone', [...cart, obj]);
   };
-
-  console.log(cart);
 
   return (
     <Container fixed>
@@ -202,9 +215,12 @@ const HomeProduto = () => {
             }}
             size="large"
             endIcon={<ShoppingCart />}
-            onClick={handleCart}
+            onClick={() => handleCart(setIdent)}
+            disabled={macaco.includes(ident) === true}
           >
-            Adicionar ao Carrinho
+            {macaco.includes(ident)
+              ? 'Produto Adicionado'
+              : 'Adicionar ao Carrinho'}
           </Button>
         </Box>
       </Box>
