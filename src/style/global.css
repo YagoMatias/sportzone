@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 body{
@@ -75,8 +76,27 @@ body{
   color: white;
   text-decoration: none;
 }
+.link {
+  color: white;
+  text-decoration: none;
+}
 
 :disabled {
   background-color: gray;
 }
 
+
+@media (max-width: 880px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .content img {
+    max-width: 20rem;
+    height: 25rem;
+  }
+  .content button {
+    font-size: 0.8rem;
+  }
+}

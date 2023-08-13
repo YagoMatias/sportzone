@@ -10,6 +10,7 @@ import Internacional from './pages/Internacional';
 import Selecao from './pages/Selecao';
 import Banner from './components/Banner';
 import HomeProduto from './pages/Produto';
+import Cart from './pages/Cart';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -23,6 +24,7 @@ function App() {
           <Banner />
           <Routes>
             <Route path="/" element={<Home searchTerm={searchTerm} />} />
+            <Route path="cart" element={<Cart />} />
             <Route
               path="brasileiro"
               element={<Brasileiro searchTerm={searchTerm} />}

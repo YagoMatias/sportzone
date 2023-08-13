@@ -12,6 +12,8 @@ import {
 import { Add, Remove, ShoppingCart } from '@mui/icons-material';
 import '../style/global.css';
 import { setItem, getItem } from '../services/LocalStorage';
+import Snackbar from '@mui/material/Snackbar';
+import Stack from '@mui/material/Stack';
 
 const HomeProduto = () => {
   const { id } = useParams();
@@ -26,6 +28,8 @@ const HomeProduto = () => {
   const [size, setSize] = React.useState('');
   const [selectedButton, setSelectedButton] = React.useState(null);
   const [cart, setCart] = React.useState(getItem('sportzone') || []);
+  const [open, setOpen] = React.useState(false);
+  const [sizeAlert, setSizeAlert] = React.useState(false);
 
   const produto = globalprodutos;
   React.useEffect(() => {
@@ -37,6 +41,14 @@ const HomeProduto = () => {
     setTipo(produto[id].tipo);
     setIdent(produto[id].id);
   }, [id]);
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setOpen(false);
+    setSizeAlert(false);
+  };
 
   //Botão do tamanho da camisa
   const handleButtonClick = (buttonId, { target }) => {
@@ -64,25 +76,36 @@ const HomeProduto = () => {
   //--------------------------//
 
   const pegarvalor = getItem('sportzone');
-  const macaco = pegarvalor.map((item) => item[0]);
-  console.log(macaco);
 
   let preco = qnt * valor;
-  const obj = [ident, clube, tipo, qnt, size, preco];
+  const obj = [ident, clube, tipo, ano, qnt, valor, size, preco];
 
   const handleCart = () => {
     if (size === '') {
-      return alert('Escolha um tamanho');
+      return setSizeAlert(true);
     }
     let preco = qnt * valor;
-    const obj = [ident, clube, tipo, qnt, size, preco];
+    const obj = [
+      {
+        id: ident,
+        clube: clube,
+        tipo: tipo,
+        ano: ano,
+        qnt: qnt,
+        valor: valor,
+        size: size,
+        preco: preco,
+      },
+    ];
     setCart([...cart, obj]);
     setItem('sportzone', [...cart, obj]);
+    setOpen(true);
   };
 
   return (
     <Container fixed>
       <Box
+        className="content"
         sx={{
           height: '100vh',
           marginTop: '3rem',
@@ -205,6 +228,30 @@ const HomeProduto = () => {
             ))}
           </ButtonGroup>
 
+          <Stack spacing={2} sx={{ width: '100%' }}>
+            <Snackbar open={sizeAlert} autoHideDuration={3000}>
+              <Alert
+                onClose={handleClose}
+                severity="error"
+                sx={{ width: '100%' }}
+              >
+                Escolha um tamanho
+              </Alert>
+            </Snackbar>
+          </Stack>
+
+          <Stack spacing={2} sx={{ width: '100%' }}>
+            <Snackbar open={open} autoHideDuration={3000}>
+              <Alert
+                onClose={handleClose}
+                severity="success"
+                sx={{ width: '100%' }}
+              >
+                Produto adicionado ao carrinho
+              </Alert>
+            </Snackbar>
+          </Stack>
+
           <Button
             style={{
               gap: '1rem',
@@ -216,11 +263,8 @@ const HomeProduto = () => {
             size="large"
             endIcon={<ShoppingCart />}
             onClick={() => handleCart(setIdent)}
-            disabled={macaco.includes(ident) === true}
           >
-            {macaco.includes(ident)
-              ? 'Produto Adicionado'
-              : 'Adicionar ao Carrinho'}
+            Adicionar ao Carrinho
           </Button>
         </Box>
       </Box>
