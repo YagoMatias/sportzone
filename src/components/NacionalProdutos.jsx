@@ -62,7 +62,6 @@ const NacionalProdutos = ({ searchTerm }) => {
             </Link>
           );
         })}
-        ;
       </Box>
     </div>
   );

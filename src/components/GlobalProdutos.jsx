@@ -57,7 +57,6 @@ const Produtos = ({ searchTerm }) => {
             </Link>
           );
         })}
-        ;
       </Box>
     </div>
   );

@@ -62,7 +62,6 @@ const InternacionalProdutos = ({ searchTerm }) => {
             </Link>
           );
         })}
-        ;
       </Box>
     </div>
   );

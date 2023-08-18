@@ -11,6 +11,7 @@ import Selecao from './pages/Selecao';
 import Banner from './components/Banner';
 import HomeProduto from './pages/Produto';
 import Cart from './pages/Cart';
+import Footer from './components/Footer';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -41,6 +42,7 @@ function App() {
               element={<HomeProduto />}
             />
           </Routes>
+          <Footer />
         </Container>
       </Container>
     </BrowserRouter>

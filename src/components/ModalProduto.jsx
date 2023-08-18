@@ -6,7 +6,7 @@ import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { AttachMoney } from '@mui/icons-material';
-import { ListItemText, TextField } from '@mui/material';
+import { ListItemText, TextField, capitalize } from '@mui/material';
 import ReactWhatsapp from 'react-whatsapp';
 
 const style = {
@@ -24,7 +24,6 @@ const style = {
 export const ModalProduto = ({ cart, valor }) => {
   const [open, setOpen] = React.useState(false);
   const [nameText, setNameText] = React.useState('');
-  const quebralinha = '%0a';
 
   const handleChange = ({ target }) => {
     console.log(target.value);
@@ -40,7 +39,8 @@ export const ModalProduto = ({ cart, valor }) => {
   const handleDados = () => {
     const macaco = cart.map((item) => {
       return item.map((item) => {
-        return ` ------------ ${item.tipo} ${item.clube} ${item.ano}  | Tamanho: ${item.size} | Qnt: ${item.qnt} | R$ ${item.preco},00 | ------------`;
+        const texto = `\n${item.tipo} ${item.clube} ${item.ano} | Tamanho: ${item.size} | Qnt: ${item.qnt} | R$ ${item.preco},00 \n`;
+        return texto;
       });
     });
     return macaco;
@@ -80,7 +80,7 @@ export const ModalProduto = ({ cart, valor }) => {
               FINALIZAR PEDIDO
             </Typography>
             <Box>
-              <form
+              <box
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -111,13 +111,16 @@ export const ModalProduto = ({ cart, valor }) => {
                     });
                   })}
                 </Box>
-                <ReactWhatsapp
-                  number="5584987187425"
-                  message={`Olá, meu nome é ${nameText}  tenho interesse em adiquirir esses produtos da SPORTZONE: ${handleDados()} com o valor total de R$ ${valor},00 `}
-                >
-                  ENVIAR PEDIDO
-                </ReactWhatsapp>
-              </form>
+                <Button color="success">
+                  <ReactWhatsapp
+                    className="buttonWhatsapp"
+                    number="5584996009908"
+                    message={`Olá, meu nome é ${nameText}  tenho interesse em adquirir esses produtos da SPORTZONE:\n${handleDados()}\n com o valor total de R$ ${valor},00`}
+                  >
+                    ENVIAR PEDIDO
+                  </ReactWhatsapp>
+                </Button>
+              </box>
             </Box>
           </Box>
         </Fade>
