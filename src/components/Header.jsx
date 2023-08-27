@@ -94,7 +94,7 @@ const Header = ({ onSearch }) => {
             sx={{ mr: 2, marginLeft: 2 }}
           >
             <Link to={'Cart'}>
-              <ShoppingCart />
+              <ShoppingCart style={{ color: 'white' }} />
             </Link>
           </IconButton>
         </Toolbar>

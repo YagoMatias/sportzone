@@ -6,21 +6,21 @@ import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { AttachMoney } from '@mui/icons-material';
-import { ListItemText, TextField, capitalize } from '@mui/material';
+import { ListItemText, TextField } from '@mui/material';
 import ReactWhatsapp from 'react-whatsapp';
 
 const style = {
   position: 'absolute',
   top: '50%',
-  left: '50%',
+  left: '45%',
   transform: 'translate(-50%, -50%)',
-  width: 600,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   textTransform: 'capitalize',
   p: 4,
 };
+
 export const ModalProduto = ({ cart, valor }) => {
   const [open, setOpen] = React.useState(false);
   const [nameText, setNameText] = React.useState('');
@@ -37,13 +37,13 @@ export const ModalProduto = ({ cart, valor }) => {
   const handleClose = () => setOpen(false);
 
   const handleDados = () => {
-    const macaco = cart.map((item) => {
+    const cartMensage = cart.map((item) => {
       return item.map((item) => {
         const texto = `\n${item.tipo} ${item.clube} ${item.ano} | Tamanho: ${item.size} | Qnt: ${item.qnt} | R$ ${item.preco},00 \n`;
         return texto;
       });
     });
-    return macaco;
+    return cartMensage;
   };
 
   return (
@@ -75,7 +75,7 @@ export const ModalProduto = ({ cart, valor }) => {
         }}
       >
         <Fade in={open}>
-          <Box sx={style}>
+          <Box sx={style} className="boxModal">
             <Typography id="transition-modal-title" variant="h6" component="h2">
               FINALIZAR PEDIDO
             </Typography>
@@ -98,24 +98,35 @@ export const ModalProduto = ({ cart, valor }) => {
                 <Typography variant="h6" component="h2">
                   Produtos
                 </Typography>
-                <Box border={'1px solid black'} padding={1}>
+                <Box border={'1px solid black'} padding={2}>
                   {cart.map((item) => {
                     return item.map((item) => {
                       return (
                         <ListItemText
                           key={item.id}
                           className="msg"
-                          primary={`${item.tipo} ${item.clube} ${item.ano}  | Tamanho: ${item.size} | Qnt: ${item.qnt} | R$ ${item.preco},00 |`}
+                          primary={
+                            <li>
+                              {`${item.tipo} ${item.clube} ${item.ano} | Tamanho:
+                              ${item.size} | Qnt: ${item.qnt} | R$ ${item.preco}
+                              ,00 |`}
+                            </li>
+                          }
                         />
                       );
                     });
                   })}
                 </Box>
-                <Button color="success">
+                <Button
+                  color="success"
+                  style={{
+                    backgroundColor: 'darkgoldenrod',
+                  }}
+                >
                   <ReactWhatsapp
                     className="buttonWhatsapp"
                     number="5584996009908"
-                    message={`Olá, meu nome é ${nameText}  tenho interesse em adquirir esses produtos da SPORTZONE:\n${handleDados()}\n com o valor total de R$ ${valor},00`}
+                    message={`Olá, meu nome é ${nameText} tenho interesse em adquirir esses produtos da SPORTZONE:\n${handleDados()}\n  no valor total de R$ ${valor},00`}
                   >
                     ENVIAR PEDIDO
                   </ReactWhatsapp>
