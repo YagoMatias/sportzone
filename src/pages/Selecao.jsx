@@ -1,12 +1,12 @@
 import { Container } from '@mui/material';
 import React from 'react';
-import Manutencao from '../components/Manutencao';
+import SelecaoProdutos from '../components/SelecaoProdutos';
 
-const Selecao = () => {
+const Selecao = ({ searchTerm }) => {
   return (
-    <Container maxWidth="xl" sx={{ bgcolor: 'yellow' }}>
-      <Container maxWidth="lg" sx={{ bgcolor: 'yellow' }}>
-        <Manutencao />
+    <Container maxWidth="xl" sx={{ bgcolor: '#121212' }}>
+      <Container maxWidth="lg" sx={{ bgcolor: '#121212' }}>
+        <SelecaoProdutos searchTerm={searchTerm} />
       </Container>
     </Container>
   );

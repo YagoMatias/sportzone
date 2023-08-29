@@ -34,13 +34,17 @@ function App() {
               path="internacional"
               element={<Internacional searchTerm={searchTerm} />}
             />
-            <Route path="selecao" element={<Selecao />} />
+            <Route
+              path="selecao"
+              element={<Selecao searchTerm={searchTerm} />}
+            />
             <Route path="produto/:id" element={<HomeProduto />} />
             <Route path="/brasileiro/produto/:id" element={<HomeProduto />} />
             <Route
               path="/internacional/produto/:id"
               element={<HomeProduto />}
             />
+            <Route path="/selecao/produto/:id" element={<HomeProduto />} />
           </Routes>
           <Footer />
         </Container>

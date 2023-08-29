@@ -9,7 +9,10 @@
     "classe": "internacional",
     "liga": "laliga",
     "valor": "110",
-    "image": "https://i.imgur.com/ysiRnLd.jpg"
+    "image": "https://i.imgur.com/ysiRnLd.jpg",
+    "imageDois": "https://i.imgur.com/WDmiaMz.jpg",
+    "imageTres": "https://i.imgur.com/faCQn0V.jpg",
+    "imageQuatro": "https://i.imgur.com/ZWkly8f.jpg"
   },
   {
     "id": "1",
@@ -22,7 +25,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/2VZztaX.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/7FABEZG.jpg",
+    "imageTres": "https://i.imgur.com/pP4CMGd.jpg",
+    "imageQuatro": "https://i.imgur.com/b3bkyxV.jpg"
   },
   {
     "id": "2",
@@ -35,7 +40,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/8ynzy5i.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/rdtqZPB.jpg",
+    "imageTres": "https://i.imgur.com/C84Ey11.jpg",
+    "imageQuatro": "https://i.imgur.com/gwI4Kam.jpg"
   },
   {
     "id": "3",
@@ -47,7 +54,10 @@
     "classe": "internacional",
     "liga": "laliga",
     "valor": "110",
-    "image": "https://i.imgur.com/7hC1HGA.jpg"
+    "image": "https://i.imgur.com/7hC1HGA.jpg",
+    "imageDois": "https://i.imgur.com/RnO1Hqc.jpg",
+    "imageTres": "https://i.imgur.com/1gcZqk0.jpg",
+    "imageQuatro": "https://i.imgur.com/FnFIDab.jpg"
   },
   {
     "id": "4",
@@ -59,7 +69,10 @@
     "classe": "internacional",
     "liga": "ligueone",
     "valor": "110",
-    "image": "https://i.imgur.com/jTrce1H.jpg"
+    "image": "https://i.imgur.com/jTrce1H.jpg",
+    "imageDois": "https://i.imgur.com/9KC1CjQ.jpg",
+    "imageTres": "https://i.imgur.com/hVxd6b5.jpg",
+    "imageQuatro": "https://i.imgur.com/A5Cux6y.jpg"
   },
   {
     "id": "5",
@@ -71,7 +84,10 @@
     "classe": "internacional",
     "liga": "premierleague",
     "valor": "110",
-    "image": "https://i.imgur.com/ZyBjHsa.jpg"
+    "image": "https://i.imgur.com/ZyBjHsa.jpg",
+    "imageDois": "https://i.imgur.com/i7Y6lW2.jpg",
+    "imageTres": "https://i.imgur.com/ybDRzaB.jpg",
+    "imageQuatro": "https://i.imgur.com/w8vOes8.jpg"
   },
   {
     "id": "6",
@@ -83,7 +99,10 @@
     "classe": "internacional",
     "liga": "premierleague",
     "valor": "110",
-    "image": "https://i.imgur.com/CEDeGu2.jpg"
+    "image": "https://i.imgur.com/CEDeGu2.jpg",
+    "imageDois": "https://i.imgur.com/1z7XL00.jpg",
+    "imageTres": "https://i.imgur.com/Y8SfG9W.jpg",
+    "imageQuatro": "https://i.imgur.com/XG0hCYa.jpg"
   },
   {
     "id": "7",
@@ -96,7 +115,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/tXG6P7O.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/PZJqWos.jpg",
+    "imageTres": "https://i.imgur.com/vGDv7kl.jpg",
+    "imageQuatro": "https://i.imgur.com/XRKPZA4.jpg"
   },
 
   {
@@ -109,7 +130,10 @@
     "classe": "internacional",
     "liga": "bundesliga",
     "valor": "110",
-    "image": "https://i.imgur.com/W3zZ0oI.jpg"
+    "image": "https://i.imgur.com/W3zZ0oI.jpg",
+    "imageDois": "https://i.imgur.com/eZq4gfd.jpg",
+    "imageTres": "https://i.imgur.com/2ZWX1Cl.jpg",
+    "imageQuatro": "https://i.imgur.com/DnHTsOL.jpg"
   },
   {
     "id": "9",
@@ -121,7 +145,10 @@
     "classe": "internacional",
     "liga": "bundesliga",
     "valor": "110",
-    "image": "https://i.imgur.com/RhY4DTY.jpg"
+    "image": "https://i.imgur.com/RhY4DTY.jpg",
+    "imageDois": "https://i.imgur.com/DnHTsOL.jpg",
+    "imageTres": "https://i.imgur.com/NEbFPB9.jpg",
+    "imageQuatro": "https://i.imgur.com/wgn0A1F.jpg"
   },
   {
     "id": "10",
@@ -133,7 +160,10 @@
     "classe": "internacional",
     "liga": "eredivisie",
     "valor": "110",
-    "image": "https://i.imgur.com/rZpK0C7.jpg"
+    "image": "https://i.imgur.com/rZpK0C7.jpg",
+    "imageDois": "https://i.imgur.com/RnDKfaR.jpg",
+    "imageTres": "https://i.imgur.com/p6SI9Bl.jpg",
+    "imageQuatro": "https://i.imgur.com/glR1Iz0.jpg"
   },
   {
     "id": "11",
@@ -146,7 +176,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/L3tdvDK.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/JJOEYAB.jpg",
+    "imageTres": "https://i.imgur.com/b1VCQWQ.jpg",
+    "imageQuatro": "https://i.imgur.com/ByRm3vJ.jpg"
   },
 
   {
@@ -160,7 +192,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/B4vyQ1z.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/V4QnOik.jpg",
+    "imageTres": "https://i.imgur.com/nTxq0oD.jpg",
+    "imageQuatro": "https://i.imgur.com/ILa2YNW.jpg"
   },
   {
     "id": "13",
@@ -173,7 +207,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/9ndUhct.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/ZEfmgtP.jpg",
+    "imageTres": "https://i.imgur.com/G4nguXe.jpg",
+    "imageQuatro": "https://i.imgur.com/re3HIpr.jpg"
   },
   {
     "id": "14",
@@ -186,7 +222,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/Ah2RzHv.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/V61JezY.jpg",
+    "imageTres": "https://i.imgur.com/mcA4tXl.jpg",
+    "imageQuatro": "https://i.imgur.com/TYuOskv.jpg"
   },
   {
     "id": "15",
@@ -199,7 +237,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/GQm2Mj3.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/Vn9zjEv.jpg",
+    "imageTres": "https://i.imgur.com/sEijZhC.jpg",
+    "imageQuatro": "https://i.imgur.com/K5pJWLo.jpg"
   },
   {
     "id": "16",
@@ -212,7 +252,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/NUNDENk.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/QXNIHmM.jpg",
+    "imageTres": "https://i.imgur.com/eD7nnbz.jpg",
+    "imageQuatro": "https://i.imgur.com/4Wzo2Er.jpg"
   },
 
   {
@@ -226,7 +268,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/TmzUtB7.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/91KtGFj.jpg",
+    "imageTres": "https://i.imgur.com/fHrOSSl.jpg",
+    "imageQuatro": "https://i.imgur.com/VuK8ncR.jpg"
   },
   {
     "id": "18",
@@ -239,7 +283,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/4mzsw1u.jpg",
-    "": ""
+    "imageDois": "",
+    "imageTres": "",
+    "imageQuatro": ""
   },
   {
     "id": "19",
@@ -252,7 +298,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/EpLM1yH.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/pVX1Xl4.jpg",
+    "imageTres": "https://i.imgur.com/k1wXgtO.jpg",
+    "imageQuatro": "https://i.imgur.com/1cCi9wG.jpg"
   },
   {
     "id": "20",
@@ -265,7 +313,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/7KWXkOV.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/5iYp6tx.jpg",
+    "imageTres": "https://i.imgur.com/o22YR2k.jpg",
+    "imageQuatro": "https://i.imgur.com/f1n7Z5j.jpg"
   },
   {
     "id": "21",
@@ -278,7 +328,9 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/yyrUA3Y.jpg",
-    "": ""
+    "imageDois": "https://i.imgur.com/LRU5Am7.jpg",
+    "imageTres": "https://i.imgur.com/amUiF01.jpg",
+    "imageQuatro": "https://i.imgur.com/0Vdr8AM.jpg"
   },
   {
     "id": "22",
@@ -290,7 +342,10 @@
     "classe": "internacional",
     "liga": "premierleague",
     "valor": "110",
-    "image": "https://i.imgur.com/cpBA1H2.jpg"
+    "image": "https://i.imgur.com/cpBA1H2.jpg",
+    "imageDois": "https://i.imgur.com/wsUmAxb.jpg",
+    "imageTres": "https://i.imgur.com/fdnzUiB.jpg",
+    "imageQuatro": "https://i.imgur.com/taxhaDV.jpg"
   },
   {
     "id": "23",
@@ -303,6 +358,128 @@
     "liga": "Brasileirão",
     "valor": "110",
     "image": "https://i.imgur.com/g1RQCZP.jpg",
-    "": ""
+    "imageDois": "",
+    "imageTres": "",
+    "imageQuatro": ""
+  },
+  {
+    "id": "24",
+    "local": "Home",
+    "clube": "Nigéria",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "africa",
+    "valor": "110",
+    "image": "https://i.imgur.com/jbrzdg5.jpg"
+  },
+  {
+    "id": "25",
+    "local": "Home",
+    "clube": "Brasil",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "america do sul",
+    "valor": "110",
+    "image": "https://i.imgur.com/1OOwhvL.jpg"
+  },
+  {
+    "id": "26",
+    "local": "Home",
+    "clube": "Espanha",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "europa",
+    "valor": "110",
+    "image": "https://i.imgur.com/7uIGq9i.jpg"
+  },
+  {
+    "id": "27",
+    "local": "Home",
+    "clube": "França",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "europa",
+    "valor": "110",
+    "image": "https://i.imgur.com/OY4A0hx.jpg"
+  },
+  {
+    "id": "28",
+    "local": "Home",
+    "clube": "Vasco",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "america do sul",
+    "valor": "110",
+    "image": "https://i.imgur.com/2fzu8pz.jpg"
+  },
+  {
+    "id": "29",
+    "local": "Home",
+    "clube": "Alemanha",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "europa",
+    "valor": "110",
+    "image": "https://i.imgur.com/X7x3SIb.jpg"
+  },
+  {
+    "id": "30",
+    "local": "Home",
+    "clube": "Holanda",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "europa",
+    "valor": "110",
+    "image": "https://i.imgur.com/fbH1ETp.jpg"
+  },
+  {
+    "id": "31",
+    "local": "Home",
+    "clube": "Bélgica",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "europa",
+    "valor": "110",
+    "image": "https://i.imgur.com/zmAqsXe.jpg"
+  },
+  {
+    "id": "32",
+    "local": "Home",
+    "clube": "México",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "america do norte",
+    "valor": "110",
+    "image": "https://i.imgur.com/jBP409c.jpg"
+  },
+  {
+    "id": "33",
+    "local": "Home",
+    "clube": "Japão",
+    "ano": "23 - 24",
+    "tipo": "camisa",
+    "esporte": "futebol",
+    "classe": "seleção",
+    "liga": "ásia",
+    "valor": "110",
+    "image": "https://i.imgur.com/uQV1Hq5.jpg"
   }
 ]
