@@ -114,32 +114,99 @@ const HomeProduto = () => {
       <Box
         className="content"
         sx={{
-          height: '70vh',
-          marginTop: '3rem',
           display: 'flex',
           justifyContent: 'space-around',
+          marginTop: '3rem',
+          marginBottom: '10rem',
+          gap: '2rem',
         }}
       >
         <Box
           sx={{
-            width: '70rem',
-            height: '30rem',
             display: 'flex',
-            justifyContent: 'center',
+            justifyContent: 'space-around',
+            gap: '2rem',
+            alignItems: 'center',
           }}
+          className="desgraca"
         >
-          <img
-            src={image}
-            alt=""
-            style={{
+          <Box
+            sx={{
               width: '30rem',
-              padding: '0.1rem',
-              borderRadius: '4%',
-              border: '1px solid white',
+              height: '30rem',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
             }}
-          />
+          >
+            <img
+              src={image}
+              alt=""
+              style={{
+                marginTop: '3rem',
+                width: '30rem',
+                padding: '0.1rem',
+                borderRadius: '4%',
+                border: '1px solid white',
+              }}
+            />
+          </Box>
+          <Box
+            className="demonio"
+            sx={{
+              display: 'flex',
+              gap: '2rem',
+              padding: '0.1rem',
+              borderRadius: '10px',
+            }}
+          >
+            <Box>
+              <img
+                onClick={imageClickDois}
+                src={produto[id].imageDois}
+                alt=""
+                style={{
+                  width: '6rem',
+                  height: '6rem',
+                  padding: '0.1rem',
+                  borderRadius: '4%',
+                  border: '1px solid white',
+                }}
+              />
+            </Box>
+            <Box>
+              <img
+                onClick={imageClickTres}
+                src={produto[id].imageTres}
+                alt=""
+                style={{
+                  width: '6rem',
+                  height: '6rem',
+                  padding: '0.1rem',
+                  borderRadius: '4%',
+                  border: '1px solid white',
+                }}
+              />
+            </Box>
+            <Box>
+              <img
+                onClick={imageClickQuatro}
+                src={produto[id].imageQuatro}
+                alt=""
+                style={{
+                  width: '6rem',
+                  height: '6rem',
+                  padding: '0.1rem',
+                  borderRadius: '4%',
+                  border: '1px solid white',
+                }}
+              />
+            </Box>
+          </Box>
         </Box>
+
         <Box
+          className="infos"
           sx={{
             width: '50rem',
             height: '30rem',
@@ -273,56 +340,6 @@ const HomeProduto = () => {
           >
             Adicionar ao Carrinho
           </Button>
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          width: '40rem',
-          height: '10.3rem',
-          display: 'flex',
-          justifyContent: 'space-around',
-          padding: '0.1rem',
-          borderRadius: '10px',
-        }}
-      >
-        <Box>
-          <img
-            onClick={imageClickDois}
-            src={produto[id].imageDois}
-            alt=""
-            style={{
-              width: '10rem',
-              padding: '0.1rem',
-              borderRadius: '4%',
-              border: '1px solid white',
-            }}
-          />
-        </Box>
-        <Box>
-          <img
-            onClick={imageClickTres}
-            src={produto[id].imageTres}
-            alt=""
-            style={{
-              width: '10rem',
-              padding: '0.1rem',
-              borderRadius: '4%',
-              border: '1px solid white',
-            }}
-          />
-        </Box>
-        <Box>
-          <img
-            onClick={imageClickQuatro}
-            src={produto[id].imageQuatro}
-            alt=""
-            style={{
-              width: '10rem',
-              padding: '0.1rem',
-              borderRadius: '4%',
-              border: '1px solid white',
-            }}
-          />
         </Box>
       </Box>
     </Container>

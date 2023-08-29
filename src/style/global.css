@@ -87,10 +87,12 @@ body{
 
 
 @media (max-width: 880px) {
+
   .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
   }
   .content img {
     max-width: 20rem;
@@ -98,6 +100,20 @@ body{
   }
   .content button {
     font-size: 0.8rem;
+  }
+  .desgraca {
+    display: flex;
+    flex-direction: column;
+  }
+  .demonio {
+    display: flex;
+  }
+  
+}
+@media (min-width: 880px) {
+  .demonio {
+    display: flex;
+    flex-direction: column;
   }
 }
 
