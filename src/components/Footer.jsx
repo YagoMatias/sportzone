@@ -44,9 +44,10 @@ const Footer = () => {
                   alignItems: 'center',
                   justifyContent: 'center',
                   gap: '1rem',
+                  marginRight: '5rem',
                 }}
               >
-                <Typography variant="h5" color="white" fontWeight={'500'}>
+                <Typography variant="h6" color="white" fontWeight={'500'}>
                   Contatos
                 </Typography>
                 <Box
@@ -102,10 +103,10 @@ const Footer = () => {
                 }}
               >
                 <Typography
-                  variant="h5"
+                  variant="h6"
                   color="white"
                   fontWeight={'500'}
-                  style={{ display: 'flex' }}
+                  style={{ display: 'flex', flexWrap: 'nowrap' }}
                 >
                   Redes Sociais
                 </Typography>
