@@ -350,21 +350,6 @@
   {
     "id": "23",
     "local": "Home",
-    "clube": "Vasco",
-    "ano": "23 - 24",
-    "tipo": "camisa",
-    "esporte": "futebol",
-    "classe": "brasileiro",
-    "liga": "Brasileirão",
-    "valor": "110",
-    "image": "https://i.imgur.com/g1RQCZP.jpg",
-    "imageDois": "",
-    "imageTres": "",
-    "imageQuatro": ""
-  },
-  {
-    "id": "24",
-    "local": "Home",
     "clube": "Nigéria",
     "ano": "23 - 24",
     "tipo": "camisa",
@@ -372,10 +357,13 @@
     "classe": "seleção",
     "liga": "africa",
     "valor": "110",
-    "image": "https://i.imgur.com/jbrzdg5.jpg"
+    "image": "https://i.imgur.com/jbrzdg5.jpg",
+    "imageDois": "https://i.imgur.com/giIRYmt.jpg",
+    "imageTres": "https://i.imgur.com/kBrngfu.jpg",
+    "imageQuatro": "https://i.imgur.com/tXotdPK.jpg"
   },
   {
-    "id": "25",
+    "id": "24",
     "local": "Home",
     "clube": "Brasil",
     "ano": "23 - 24",
@@ -384,10 +372,13 @@
     "classe": "seleção",
     "liga": "america do sul",
     "valor": "110",
-    "image": "https://i.imgur.com/1OOwhvL.jpg"
+    "image": "https://i.imgur.com/1OOwhvL.jpg",
+    "imageDois": "https://i.imgur.com/NPfFiZt.jpg",
+    "imageTres": "https://i.imgur.com/Ubpz9YQ.jpg",
+    "imageQuatro": "https://i.imgur.com/LJmf8fS.jpg"
   },
   {
-    "id": "26",
+    "id": "25",
     "local": "Home",
     "clube": "Espanha",
     "ano": "23 - 24",
@@ -396,10 +387,13 @@
     "classe": "seleção",
     "liga": "europa",
     "valor": "110",
-    "image": "https://i.imgur.com/7uIGq9i.jpg"
+    "image": "https://i.imgur.com/7uIGq9i.jpg",
+    "imageDois": "https://i.imgur.com/EVlDI3K.jpg",
+    "imageTres": "https://i.imgur.com/U1UrEhL.jpg",
+    "imageQuatro": "https://i.imgur.com/Drrb6mX.jpg"
   },
   {
-    "id": "27",
+    "id": "26",
     "local": "Home",
     "clube": "França",
     "ano": "23 - 24",
@@ -408,22 +402,28 @@
     "classe": "seleção",
     "liga": "europa",
     "valor": "110",
-    "image": "https://i.imgur.com/OY4A0hx.jpg"
+    "image": "https://i.imgur.com/OY4A0hx.jpg",
+    "imageDois": "https://i.imgur.com/1Mg1uOn.jpg",
+    "imageTres": "https://i.imgur.com/SuAFSZh.jpg",
+    "imageQuatro": "https://i.imgur.com/5yej4Gt.jpg"
   },
   {
-    "id": "28",
+    "id": "27",
     "local": "Home",
-    "clube": "Vasco",
+    "clube": "Argentina",
     "ano": "23 - 24",
     "tipo": "camisa",
     "esporte": "futebol",
     "classe": "seleção",
     "liga": "america do sul",
     "valor": "110",
-    "image": "https://i.imgur.com/2fzu8pz.jpg"
+    "image": "https://i.imgur.com/2fzu8pz.jpg",
+    "imageDois": "https://i.imgur.com/SPRRwx9.jpg",
+    "imageTres": "https://i.imgur.com/vENNHcb.jpg",
+    "imageQuatro": "https://i.imgur.com/AevNwKO.jpg"
   },
   {
-    "id": "29",
+    "id": "28",
     "local": "Home",
     "clube": "Alemanha",
     "ano": "23 - 24",
@@ -432,10 +432,13 @@
     "classe": "seleção",
     "liga": "europa",
     "valor": "110",
-    "image": "https://i.imgur.com/X7x3SIb.jpg"
+    "image": "https://i.imgur.com/X7x3SIb.jpg",
+    "imageDois": "https://i.imgur.com/blmXkNs.jpg",
+    "imageTres": "https://i.imgur.com/8bHeqCe.jpg",
+    "imageQuatro": "https://i.imgur.com/GU4an2L.jpg"
   },
   {
-    "id": "30",
+    "id": "29",
     "local": "Home",
     "clube": "Holanda",
     "ano": "23 - 24",
@@ -444,10 +447,13 @@
     "classe": "seleção",
     "liga": "europa",
     "valor": "110",
-    "image": "https://i.imgur.com/fbH1ETp.jpg"
+    "image": "https://i.imgur.com/fbH1ETp.jpg",
+    "imageDois": "https://i.imgur.com/Tk4sdeH.jpg",
+    "imageTres": "https://i.imgur.com/NR0IWrA.jpg",
+    "imageQuatro": "https://i.imgur.com/be0CX0s.jpg"
   },
   {
-    "id": "31",
+    "id": "30",
     "local": "Home",
     "clube": "Bélgica",
     "ano": "23 - 24",
@@ -456,10 +462,13 @@
     "classe": "seleção",
     "liga": "europa",
     "valor": "110",
-    "image": "https://i.imgur.com/zmAqsXe.jpg"
+    "image": "https://i.imgur.com/zmAqsXe.jpg",
+    "imageDois": "https://i.imgur.com/q7Q1wof.jpg",
+    "imageTres": "https://i.imgur.com/E1rK87L.jpg",
+    "imageQuatro": "https://i.imgur.com/2spgWF8.jpg"
   },
   {
-    "id": "32",
+    "id": "31",
     "local": "Home",
     "clube": "México",
     "ano": "23 - 24",
@@ -468,10 +477,13 @@
     "classe": "seleção",
     "liga": "america do norte",
     "valor": "110",
-    "image": "https://i.imgur.com/jBP409c.jpg"
+    "image": "https://i.imgur.com/jBP409c.jpg",
+    "imageDois": "https://i.imgur.com/wYuAOHp.jpg",
+    "imageTres": "https://i.imgur.com/x9bCIem.jpg",
+    "imageQuatro": "https://i.imgur.com/cJtwzXQ.jpg"
   },
   {
-    "id": "33",
+    "id": "32",
     "local": "Home",
     "clube": "Japão",
     "ano": "23 - 24",
@@ -480,6 +492,9 @@
     "classe": "seleção",
     "liga": "ásia",
     "valor": "110",
-    "image": "https://i.imgur.com/uQV1Hq5.jpg"
+    "image": "https://i.imgur.com/uQV1Hq5.jpg",
+    "imageDois": "https://i.imgur.com/1MumBDZ.jpg",
+    "imageTres": "https://i.imgur.com/RHYdSQS.jpg",
+    "imageQuatro": "https://i.imgur.com/v0ooxKM.jpg"
   }
 ]

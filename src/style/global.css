@@ -117,15 +117,17 @@ body{
   }
 }
 
-.buttonWhatsapp {
-  background-color: inherit;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem 12rem;
-}
 
-.boxModal{
-  max-width: 40rem;
-  margin: 2rem;
-}
+@media (max-width: 880px) {
+    .buttonWhatsapp {
+      background-color: inherit;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem 5rem;
+    }
 
+    .boxModal{
+      max-width: 22rem;
+      margin: 2rem;
+    }
+}
