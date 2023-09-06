@@ -80,7 +80,7 @@ export const ModalProduto = ({ cart, valor }) => {
               FINALIZAR PEDIDO
             </Typography>
             <Box>
-              <box
+              <Box
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -117,21 +117,17 @@ export const ModalProduto = ({ cart, valor }) => {
                     });
                   })}
                 </Box>
-                <Button
-                  color="success"
+                <ReactWhatsapp
                   style={{
                     backgroundColor: 'darkgoldenrod',
                   }}
+                  className="buttonWhatsapp"
+                  number="5584996009908"
+                  message={`Olá, meu nome é ${nameText} tenho interesse em adquirir esses produtos da SPORTZONE:\n${handleDados()}\n  no valor total de R$ ${valor},00`}
                 >
-                  <ReactWhatsapp
-                    className="buttonWhatsapp"
-                    number="5584996009908"
-                    message={`Olá, meu nome é ${nameText} tenho interesse em adquirir esses produtos da SPORTZONE:\n${handleDados()}\n  no valor total de R$ ${valor},00`}
-                  >
-                    ENVIAR PEDIDO
-                  </ReactWhatsapp>
-                </Button>
-              </box>
+                  ENVIAR PEDIDO
+                </ReactWhatsapp>
+              </Box>
             </Box>
           </Box>
         </Fade>

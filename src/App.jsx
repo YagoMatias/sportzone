@@ -12,6 +12,7 @@ import Banner from './components/Banner';
 import HomeProduto from './pages/Produto';
 import Cart from './pages/Cart';
 import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -46,6 +47,7 @@ function App() {
             />
             <Route path="/selecao/produto/:id" element={<HomeProduto />} />
           </Routes>
+          <BackToTop />
           <Footer />
         </Container>
       </Container>
